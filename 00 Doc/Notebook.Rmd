@@ -1,16 +1,46 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: "<center><b>Project 3</b></center>"
+author: "<center><b>Thompson, Adair, Wiggins, Willett</b></center>"
+output:
+  html_document:
+    self_contained: yes
+    toc: yes
+  pdf_document:
+    toc: yes
+  word_document:
+    toc: yes
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
-
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
-
-```{r}
-plot(cars)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+##**Introduction**
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
+This page shows three different visualizations using Tableau. Each of them are different depictions of data from oil wells in Texas.
+
+###R Configuration
+Below we display our sessionInfo().
+```{r sessionInfo}
+sessionInfo(package=NULL)
+```
+
+###Downloading the CSV from data.world
+
+To download our document, go to https://data.world/mwillett/s-17-edv-project-3, and click on the "download" button on the top right of the page. The file will be called OilData.csv. This is not the original dataset -- it has been cleaned using our ETL file.
+
+
+##**The Data**
+###Visualization 1: (Cumulative Production by County)
+The following is a visualization of the state of texas representing oil production by county. The Darker the shade of blue, the more production. 
+![](Map of Cumulative Production.png)
+
+When you click on a county it will then bring you to a worksheet that shows the oil fields in that specific county. The larger the circle, the more production for that field. Displayed is 4 images that shows the selected county and the worksheet that will display. 
+
+###First Selection: Wharton County
+![](Wharton County.png)
+![](Field Production within County.png)
+
+###Second Selection: Brazoria County
+![](Brazoria County.png)
+![](Field Production Brazoria.png)
