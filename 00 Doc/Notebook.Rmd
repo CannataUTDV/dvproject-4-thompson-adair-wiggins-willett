@@ -31,7 +31,7 @@ To download our document, go to https://data.world/mwillett/s-17-edv-project-3, 
 
 
 ##**The Data**
-###Visualization 1: (Cumulative Production by County)
+###Visualization 1 and 2: (Cumulative Production by County)
 The following is a visualization of the state of texas representing oil production by county. The Darker the shade of blue, the more production. 
 ![](Map of Cumulative Production.png)
 
@@ -44,3 +44,17 @@ When you click on a county it will then bring you to a worksheet that shows the 
 ###Second Selection: Brazoria County
 ![](Brazoria County.png)
 ![](Field Production Brazoria.png)
+
+
+
+###Visualization 3 and 4: (Field Discovery Date)
+The following visualization is a line graph showing the amount of fields discovered in each year dating back to 1930. When you click on a specific year on the line, it will bring you to a treemap showing the production of those fields. The darker and larger the field, the more production that field has put out. 
+![](Line graph of field discovery.png)
+
+###First Selection: 1937
+![](1937 selection.png)
+![](1937.png)
+
+###Second Selection: 1943
+![](1943 selection.png)
+![](1943.png)
