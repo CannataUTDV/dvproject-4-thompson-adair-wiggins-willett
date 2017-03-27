@@ -58,3 +58,14 @@ The following visualization is a line graph showing the amount of fields discove
 ###Second Selection: 1943
 ![](1943 selection.png)
 ![](1943.png)
+
+##Shiny Action
+
+For the shiny selection, the production and reservior depth were plotted against each other. The shiny application allows the user to click and drag to draw a box and select points. These points will then be displayed below the original plot. The new plots color scale will then rescale with the new points. 
+
+###The original plot
+![](Shiny_InitialDisplay.png)
+
+###The display with points selected
+![](Shiny_Action.png)
+
