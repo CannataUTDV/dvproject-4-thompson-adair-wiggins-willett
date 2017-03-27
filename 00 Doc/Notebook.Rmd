@@ -4,7 +4,7 @@ author: "<center><b>Thompson, Adair, Wiggins, Willett</b></center>"
 output:
   html_document:
     self_contained: yes
-    toc: yes
+d    toc: yes
   pdf_document:
     toc: yes
   word_document:
@@ -14,7 +14,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+d
 ##**Introduction**
 
 This page shows three different visualizations using Tableau. Each of them are different depictions of data from oil wells in Texas.
@@ -24,7 +24,7 @@ Below we display our sessionInfo().
 ```{r sessionInfo}
 sessionInfo(package=NULL)
 ```
-
+A
 ###Downloading the CSV from data.world
 
 To download our document, go to https://data.world/mwillett/s-17-edv-project-3, and click on the "download" button on the top right of the page. The file will be called OilData.csv. This is not the original dataset -- it has been cleaned using our ETL file.
@@ -61,7 +61,7 @@ The following visualization is a line graph showing the amount of fields discove
 
 ##Shiny Action
 
-For the shiny selection, the production and reservior depth were plotted against each other. The shiny application allows the user to click and drag to draw a box and select points. These points will then be displayed below the original plot. The new plots color scale will then rescale with the new points. 
+For the shiny selection, the production and reservior depth were plotted against each other. The shiny application allows the user to click and drag to draw a box and select points. These points will then be displayed below the original plot. The new plots color scale will then rescale with the new points. Additionally, the project was published to Shiny. This application can be accessed here: https://jadair117.shinyapps.io/Project4/
 
 ###The original plot
 ![](Shiny_InitialDisplay.png)
