@@ -27,7 +27,7 @@ sessionInfo(package=NULL)
 
 ###Downloading the CSV from data.world
 
-To download our document, go to https://data.world/mwillett/s-17-edv-project-3, and click on the "download" button on the top right of the page. The file will be called OilData.csv. This is not the original dataset -- it has been cleaned using our ETL file.
+To download our document, go to https://data.world/mwillett/s-17-edv-project-3, and click on the "download" button on the top right of the page. The file will be called OilData.csv. This is not the original dataset -- it has been cleaned using our ETL file. To load the file into Tableau, simply select "Connect -> to a file -> text file" on the left hand side and load in the csv.
 
 
 ##**The Data**
