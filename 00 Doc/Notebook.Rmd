@@ -4,7 +4,7 @@ author: "<center><b>Thompson, Adair, Wiggins, Willett</b></center>"
 output:
   html_document:
     self_contained: yes
-d    toc: yes
+    toc: yes
   pdf_document:
     toc: yes
   word_document:
@@ -14,7 +14,7 @@ d    toc: yes
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-d
+
 ##**Introduction**
 
 This page shows four different visualizations and actions using Tableau, and one action in Shiny. Each of them are different depictions of data from oil wells in Texas.
@@ -24,7 +24,7 @@ Below we display our sessionInfo().
 ```{r sessionInfo}
 sessionInfo(package=NULL)
 ```
-A
+
 ###Downloading the CSV from data.world
 
 To download our document, go to https://data.world/mwillett/s-17-edv-project-3, and click on the "download" button on the top right of the page. The file will be called OilData.csv. This is not the original dataset -- it has been cleaned using our ETL file.
