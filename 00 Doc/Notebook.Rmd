@@ -1,5 +1,5 @@
 ---
-title: "<center><b>Project 3</b></center>"
+title: "<center><b>Project 4</b></center>"
 author: "<center><b>Thompson, Adair, Wiggins, Willett</b></center>"
 output:
   html_document:
@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 d
 ##**Introduction**
 
-This page shows three different visualizations using Tableau. Each of them are different depictions of data from oil wells in Texas.
+This page shows four different visualizations and actions using Tableau, and one action in Shiny. Each of them are different depictions of data from oil wells in Texas.
 
 ###R Configuration
 Below we display our sessionInfo().
